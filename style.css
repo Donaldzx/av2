@@ -7,8 +7,8 @@ body{
 }
 
 .cabecalho {
-    background-color: #969b95;
-    color: rgb(69, 71, 69);
+    background-color: #2d8aa7;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,7 +47,7 @@ body{
 }
 
 .estudante-imagem{
-      width: 160px;
+      width: 120px;
 
 }
 
@@ -62,6 +62,15 @@ body{
  
 .estudante-todos{
      display: grid;
-     grid-template-columns: 20% 20% 20% 20% 20% ;
+     grid-template-columns: 25% 25% 25% 25%  ;
 }
  
+.rodape{
+    background-color: rgb(10, 0, 0);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px  0;
+}
